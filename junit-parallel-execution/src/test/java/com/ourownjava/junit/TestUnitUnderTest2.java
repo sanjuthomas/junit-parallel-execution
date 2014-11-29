@@ -2,6 +2,7 @@ package com.ourownjava.junit;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import mockit.Tested;
@@ -15,6 +16,11 @@ public class TestUnitUnderTest2 {
 	
 	@Tested
 	private UnitUnderTest2 unitUnderTest2;
+	
+	@Before
+	public void setUp(){
+		unitUnderTest2 = new UnitUnderTest2();
+	}
 
 	@Test
 	public void shouldReturnMethod1() throws InterruptedException{
