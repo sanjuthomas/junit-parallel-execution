@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ourownjava.junit.TestUnitUnderTest2
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.792 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.313 sec - in com.ourownjava.junit.TestUnitUnderTest2

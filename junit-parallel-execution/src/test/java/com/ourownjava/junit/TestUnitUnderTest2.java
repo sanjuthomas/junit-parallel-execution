@@ -7,8 +7,6 @@ import java.util.Date;
 import org.junit.Before;
 import org.junit.Test;
 
-import mockit.Tested;
-
 /**
  * 
  * @author Sanju Thomas
@@ -16,7 +14,6 @@ import mockit.Tested;
  */
 public class TestUnitUnderTest2 {
 	
-	@Tested
 	private UnitUnderTest2 unitUnderTest2;
 	
 	@Before
